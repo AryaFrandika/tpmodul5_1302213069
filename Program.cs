@@ -2,11 +2,11 @@
 
 public class HaloGeneric<T>
 {
-    private T _data;
+    private T User;
 
     public HaloGeneric(T data)
     {
-        _data = data;
+        User = user;
     }
 
     public void SapaUser<U>(U user)
@@ -31,14 +31,14 @@ public class DataGeneric<T>
 }
 
 class Program
-{ 
+{
     static void Main(string[] args)
     {
         string nama = "Arya";
-        HaloGeneric<string> sapa = new HaloGeneric<string>(nama);
+        HaloGeneric<string> sapa = new HaloGeneric<string>(" ");
         sapa.SapaUser(nama);
 
-        string nim = "1302213069";
+        string nim = "123456";
         DataGeneric<string> data = new DataGeneric<string>(nim);
         data.PrintData();
     }
